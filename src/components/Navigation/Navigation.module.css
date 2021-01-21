@@ -1,0 +1,31 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--light-gray);
+  margin-bottom: 1.5rem;
+}
+
+.nav__status {
+  width: 100%;
+  text-align: center;
+  padding: 0.5rem 0.5rem 1rem;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 0.85rem;
+  position: relative;
+}
+
+.nav__statusActive::before {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  width: 45%;
+  height: 4px;
+  background-color: var(--blue);
+  border-radius: 4px 4px 0px 0px;
+  bottom: 0;
+  left: 29%;
+}

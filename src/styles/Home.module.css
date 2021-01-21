@@ -1,0 +1,25 @@
+.container {
+  width: 90%;
+  height: 100vh;
+
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+
+  max-width: 620px;
+  margin: 0 auto;
+}
+
+.header {
+  font-weight: 700;
+  font-size: 2.25rem;
+  text-align: center;
+  margin: 2rem 0 3.3rem;
+}
+
+.footer {
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: #a9a9a9;
+  text-align: center;
+  margin: 1.25rem;
+}

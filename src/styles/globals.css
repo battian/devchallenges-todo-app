@@ -1,0 +1,28 @@
+:root {
+  --blue: #2f80ed;
+  --red: #eb5757;
+  --gray: #828282;
+  --light-gray: #bdbdbd;
+  --dark-gray: #333333;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  color: var(--dark-gray);
+  font-weight: 500;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
