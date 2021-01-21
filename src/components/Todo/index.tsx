@@ -89,9 +89,7 @@ const Todo = () => {
       </form>
       {error && <p className={styles.error}>{error}</p>}
 
-      {filteredTodos.length === 0 && (
-        <p className={styles.add__todo}>Please add a new todo</p>
-      )}
+      {todos.length === 0 && <p className={styles.add__todo}>Please add a new todo</p>}
 
       <ul className={styles.list}>
         {filteredTodos.map(item => (
